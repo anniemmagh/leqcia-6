@@ -1,0 +1,94 @@
+body {
+    background-color: rgb(172, 128, 46);
+    margin: 0;
+}
+header {
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    background-color: rgb(120, 207, 69);
+}
+@font-face {
+    font-family: mynewfont;
+    src: url(https://fonts.google.com/specimen/Radio+Canada)
+    
+}
+.navigation {
+    width: 100%;
+}
+.nav-link {
+    margin-left: 15%;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+text-transform: capitalize;
+text-shadow: rgb(141, 32, 32);
+
+}
+.nav-link:nth-child(2) {
+    color: royalblue;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+}
+.test-box-model {
+    background-color: rebeccapurple;
+    width: 50%;
+    height: 60px;
+    margin: 5%;
+    padding: 5%;
+    border: 1px solid black;
+    text-shadow: rgb(141, 32, 32);
+
+}
+.box-outer {
+    background-color: rgb(rgb(155, 30, 30), rgb(28, 112, 28), rgb(29, 29, 102));
+}
+button {
+    width: 100px;
+    height: 30px;
+    border: rgb(55, 42, 172);
+    border-radius: 1px;
+    
+    
+}
+.primary {
+    background-color: blue;
+}
+.danger {
+    background-color: red;
+}
+.alert {
+background-color: white;
+}
+.banner-section {
+    margin-top: 120px;
+    margin-bottom: 120px;
+}
+.container {
+    width: 1366px;
+}
+section {
+    display: flex;
+    justify-content: center;
+}
+.container {
+    width: 1366px;
+    justify-content: center;
+    
+}
+.row {
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+}
+.col-4 {
+    width: 33,3%;
+    
+}
+.card {
+    width: 100%;
+    padding: 5%;
+    
+}
